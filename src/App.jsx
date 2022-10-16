@@ -89,6 +89,7 @@ function App() {
   }
   return (
     <div className={modal ? 'fijar' : ''}>
+      <h2>titulo temporal</h2>
       <Header
         gastos={gastos}
         setGastos={setGastos}
