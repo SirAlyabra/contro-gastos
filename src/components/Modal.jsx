@@ -70,13 +70,11 @@ function Modal({setModal, animarModal, setAnimarModal, guardarGasto}) {
 					>
 						<option value="">--Selecciones--</option>
 						<option value="ahorro">Ahorro</option>
-						<option value="ahorro">Comida</option>
-						<option value="ahorro">Casa</option>
-						<option value="ahorro">Otros</option>
-						<option value="ahorro">Ocio</option>
-						<option value="ahorro">Salud</option>
-						<option value="ahorro">Servicios</option>
-						<option value="ahorro">Educacion</option>
+						<option value="comida">Comida</option>
+						<option value="casa">Casa</option>
+						<option value="ocio">Ocio</option>
+						<option value="salud">Salud</option>
+						<option value="suscripciones">suscripciones</option>
 					</select>
 				</div>
 				<input type="submit" value="Añadir" />
